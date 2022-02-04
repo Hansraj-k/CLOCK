@@ -23,7 +23,12 @@ body{
   transition: 0.5s;
   transition-property: background, box-shadow;
 }
-
+img.pic {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .datetime:hover{
   background: #2E94E3;
   box-shadow: 0 0 30px #2E94E3;
